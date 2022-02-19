@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Noto Serif', serif;
+    background-color: antiquewhite;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+#question{
+    height: 150px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.answer-container{
+    display: flex;
+    flex-direction: initial;
+    margin-bottom: 40px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+.answer-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(10, 104, 219, 0.6);
+}
+.answer-prefix{
+    background-color: #0eaedf;
+    color: white;
+    padding: 25px 35px;
+    margin: 0;
+}
+.answer-text{
+    padding: 25px;
+    width: 100%;
+    margin: 0;
+}
+.correct {
+    background-color: lightgreen;
+}
+.incorrect {
+    background-color: rgb(255, 98, 98);
+}
+

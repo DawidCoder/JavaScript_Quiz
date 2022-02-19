@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+body{
+    font-family: 'Noto Serif', serif;
+    background-color: antiquewhite;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+#start-page{
+    margin-top: 170px;
+}
+#start-page h1{
+    padding: 65px;
+    font-size: 55px;
+}
+#start-page a button{
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    background-color: #0eaedf;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+#start-page button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(16, 122, 221, 0.5);
+    transition: transform 150ms;
+    transform: scale(1.02);
+}
+#end-page{margin-top: 190px; margin-bottom: 100px;}
+#end-page h1{font-size: 45px; padding-bottom: 40px;}
+.end-page-title{margin-bottom: 25px;}
+#end-page a{text-decoration: none;}
+#end-page button{margin: 0px 30px;}
+.play-again-btn{
+    padding: 15px 50px;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    background-color: #0eaedf;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+.close-btn{
+    padding: 15px 50px;
+    font-size: 16px;
+    color: white;
+    border-style: none;
+    background-color: #0eaedf;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#end-page button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(16, 122, 221, 0.5);
+    transition: transform 150ms;
+    transform: scale(1.02);
+}
+@media screen and (max-width: 700px){
+    .end-page-title{margin-bottom: 15px;}
+    #end-page button{margin: 20px 30px;}
+}
